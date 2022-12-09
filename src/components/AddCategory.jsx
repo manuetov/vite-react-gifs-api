@@ -3,9 +3,9 @@ import { useState } from "react";
 export const AddCategory = ({ setCategories, categories }) => {
 
   const [inputValue, setInputValue] = useState([]);
-   console.log(inputValue);
+
+
   const onInputChange = (event) => {
-   console.log(event.target.value);
    //  seteo el estado
     setInputValue(event.target.value);
   };
